@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Download Chinese CV PDF](/xzs_cv_cn.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Beijing Institute of Technology**, B.S. and M.S. in Control Science and Engineering. M.S. expected June 2027.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Research Assistant**, School of Computer Science, Peking University, Prof. Hao Tang's Lab. Oct 2025 - Present.  
+  Working on world-model-based embodied policies for mobile robot navigation, including action-conditioned prediction, rollout consistency, inference acceleration, and robot deployment.
+
+## Selected Industry Experience
+
+- **Embodied Intelligence Algorithm Intern**, Fifth Era Intelligent Technology. Jun 2025 - Sep 2025.  
+  Worked on vision-language-action algorithms for dual-arm mobile robot platforms, including LeRobot-based reproduction, training, inference systems, and embodied application demos.
+
+## Selected Projects
+
+- **MWM: Mobile World Models for Action-Conditioned Consistent Prediction**.  
+  [Paper](https://arxiv.org/abs/2603.07799) / [Project Page](https://aigeeksgroup.github.io/MWM) / [Code](https://github.com/AIGeeksGroup/MWM)
+
+- **ROS2-based three-wheel omnidirectional mobile robot**.  
+  Built and integrated sensing, mapping, planning, and navigation modules with LiDAR, RGB-D camera, IMU, GPS, Cartographer, RTAB-Map, A* planning, DWB local planning, and MPC control.
+
+## Skills
+
+- Programming and tools: Python, MATLAB/Simulink, ROS2
+- Robotics: trajectory planning, trajectory optimization, imitation learning, CoppeliaSim, MuJoCo
+- Embodied learning: ACT, Diffusion Policy, PI-series methods, VLA systems
+
+## Publications
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
